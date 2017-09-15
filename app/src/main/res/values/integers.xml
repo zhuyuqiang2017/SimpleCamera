@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2014 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources>
+    <integer name="bottom_bar_background_alpha_overlay">153</integer>
+    <integer name="bottom_bar_background_alpha">255</integer>
+
+    <integer name="camera_scene_disable_value">0</integer>
+    <integer name="camera_scene_action_value">2</integer>
+    <integer name="camera_scene_night_value">5</integer>
+    <integer name="camera_scene_theatre_value">7</integer>
+    <integer name="camera_scene_beach_value">8</integer>
+    <integer name="camera_scene_snow_value">9</integer>
+    <integer name="camera_scene_sunset_value">10</integer>
+    <integer name="camera_scene_party_value">14</integer>
+    <integer name="camera_scene_candlelight_value">15</integer>
+
+    <!-- camera setting auto white balance -->
+    <integer name="camera_setting_awb_off_value">0</integer>
+    <integer name="camera_setting_awb_auto_value">1</integer>
+    <integer name="camera_setting_awb_incandescent_value">2</integer>
+    <integer name="camera_setting_awb_fluorescent_value">3</integer>
+    <integer name="camera_setting_awb_warm_fluorescent_value">4</integer>
+    <integer name="camera_setting_awb_daylight_value">5</integer>
+    <integer name="camera_setting_awb_cloudy_daylight_value">6</integer>
+    <integer name="camera_setting_awb_twilight_value">7</integer>
+    <integer name="camera_setting_awb_shade_value">8</integer>
+
+    <!-- camera setting effect -->
+    <integer name="camera_setting_effect_none_value">0</integer>
+    <integer name="camera_setting_effect_mono_value">1</integer>
+    <integer name="camera_setting_effect_negative_value">2</integer>
+    <integer name="camera_setting_effect_solarize_value">3</integer>
+    <integer name="camera_setting_effect_sepia_value">4</integer>
+    <integer name="camera_setting_effect_posterize_value">5</integer>
+    <integer name="camera_setting_effect_whiteboard_value">6</integer>
+    <integer name="camera_setting_effect_blackboard_value">7</integer>
+    <integer name="camera_setting_effect_aqua_value">8</integer>
+
+    <!-- camera setting scene -->
+    <integer name="camera_setting_scene_disable_value">0</integer>
+    <integer name="camera_setting_scene_face_priority_value">1</integer>
+    <integer name="camera_setting_scene_action_value">2</integer>
+    <integer name="camera_setting_scene_portrait_value">3</integer>
+    <integer name="camera_setting_scene_landscape_value">4</integer>
+    <integer name="camera_setting_scene_night_value">5</integer>
+    <integer name="camera_setting_scene_night_portrait_value">6</integer>
+    <integer name="camera_setting_scene_theatre_value">7</integer>
+    <integer name="camera_setting_scene_beach_value">8</integer>
+    <integer name="camera_setting_scene_snow_value">9</integer>
+    <integer name="camera_setting_scene_sunset_value">10</integer>
+    <integer name="camera_setting_scene_steadyphoto_value">11</integer>
+    <integer name="camera_setting_scene_fireworks_value">12</integer>
+    <integer name="camera_setting_scene_sports_value">13</integer>
+    <integer name="camera_setting_scene_party_value">14</integer>
+    <integer name="camera_setting_scene_candlelight_value">15</integer>
+    <integer name="camera_setting_scene_barcode_value">16</integer>
+
+    <!-- camera setting shading -->
+    <integer name="camera_setting_shading_off_value">0</integer>
+    <integer name="camera_setting_shading_fast_value">1</integer>
+    <integer name="camera_setting_shading_high_quality_value">2</integer>
+
+    <!-- camera setting edge -->
+    <integer name="camera_setting_edge_off_value">0</integer>
+    <integer name="camera_setting_edge_fast_value">1</integer>
+    <integer name="camera_setting_edge_high_quality_value">2</integer>
+    <integer name="camera_setting_edge_zero_shutter_lag_value">3</integer>
+
+</resources>

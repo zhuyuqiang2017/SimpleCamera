@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mode_manual">Manual</string>
+    <string name="mode_blur">Blur</string>
+    <string name="mode_manual_desc">Switch to Module Mode</string>
+    <string name="mode_blur_desc">Switch to Blur Mode</string>
+</resources>

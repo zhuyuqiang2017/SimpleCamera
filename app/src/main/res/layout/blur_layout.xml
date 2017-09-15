@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <com.android.camera.ui.ProgressOverlay
+        android:id="@+id/progress_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/review_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:clickable="true"
+        android:background="@android:color/black"
+        android:scaleType="fitCenter"/>
+
+    <com.android.camera.ui.CountDownView
+        android:id="@+id/count_down_view"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView android:id="@+id/remaining_seconds"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="160dp"
+            android:textColor="@android:color/white"
+            android:gravity="center"/>
+    </com.android.camera.ui.CountDownView>
+<!--    <com.appends.ui.AppendSettingLayout
+        android:id="@+id/module_append_setting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.appends.ui.BlurIndicatorView
+            android:id="@+id/blur_indicator_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <SeekBar
+            android:id="@+id/blur_seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="50"
+            android:layout_alignParentBottom="true"/>
+    </com.appends.ui.AppendSettingLayout>-->
+    <com.appends.ui.BlurIndicatorView
+        android:visibility="invisible"
+        android:id="@+id/blur_indicator_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <SeekBar
+        android:id="@+id/blur_seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="50"
+        />
+
+</FrameLayout>
